@@ -1,0 +1,5 @@
+export {default as HomeScreen} from "./Home"
+export {default as AboutScreen} from "./About"
+export {default as ServicesScreen} from "./Services"
+export {default as ContactUsScreen} from "./ContactUs"
+export {default as ProjectsScreen} from "./Projects"
