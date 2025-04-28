@@ -5,9 +5,6 @@ import { PhoneCallIcon, MailIcon, GitGraph, CodeIcon } from "lucide-react";
 import ContactForm from "./ContactForm";
 
 type Props = {};
-const emailSub = "Contact from Khaled Baniamer Portfolio";
-const emailTo = "khaledbaniamer23@gmail.com"
-
 const ContactUsScreen: React.FC<Props> = () => {
   return (
     <VStack spacing={[4, 6, 10]} align="stretch">
