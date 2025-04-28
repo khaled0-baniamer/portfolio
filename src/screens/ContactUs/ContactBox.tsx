@@ -1,21 +1,23 @@
-import { Box, Text, Icon, VStack } from "@chakra-ui/react";
+import { Box, Text, Icon, VStack, BoxProps } from "@chakra-ui/react";
 
 type Props = {
   icon: any;
-  content: string;
+  content?: string;
   label: string;
-};
+} & BoxProps;
 
-const ContactBox: React.FC<Props> = ({ content, icon, label }) => {
+const ContactBox: React.FC<Props> = ({ content, icon, label, ...props }) => {
   return (
     <Box
-      w="full"
+      w="100%"
       p={6}
       borderWidth={1}
       borderRadius="md"
       boxShadow="md"
       textAlign="center"
       _hover={{ boxShadow: "lg" }}
+      cursor={"pointer"}
+      {...props}
     >
       <VStack spacing={4}>
         <Icon as={icon} boxSize={6} color="orange" />

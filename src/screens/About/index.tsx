@@ -27,7 +27,7 @@ const AboutScreen: React.FC<Props> = ({}) => {
         <Stack direction="row" h="100px" p={4}>
           <Divider orientation="vertical" borderWidth={"1px"} colorScheme="blackAlpha" />
         </Stack>
-        <VStack w={"full"} align={"start"}>
+        {/* <VStack w={"full"} align={"start"}>
           <Flex gap={2}>
             <Text>Address : </Text>
             <Text>Jordan</Text>
@@ -36,7 +36,7 @@ const AboutScreen: React.FC<Props> = ({}) => {
             <Text>Location : </Text>
             <Text>Jordan</Text>
           </Flex>
-        </VStack>
+        </VStack> */}
       </Flex>
     </Box>
   );

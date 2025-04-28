@@ -16,6 +16,10 @@ const Header: React.FC<Props> = (props) => {
       p={4}
       justifyContent={"space-between"}
       alignItems={"center"}
+      w={"100%"}
+      position={"fixed"}
+      bg={"white"}
+      zIndex={1000}
     >
       <Box>logo</Box>
       <Flex
