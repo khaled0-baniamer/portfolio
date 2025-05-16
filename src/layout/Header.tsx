@@ -1,5 +1,5 @@
 import { ToggleMode } from "@/components";
-import { Box, Flex, IconButton, Text, Link, Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
+import { Box, Flex, IconButton, Text, Link, Menu, MenuButton, MenuList, MenuItem, Image } from "@chakra-ui/react";
 import { MenuIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -18,10 +18,12 @@ const Header: React.FC<Props> = (props) => {
       alignItems={"center"}
       w={"100%"}
       position={"fixed"}
-      bg={"white"}
+      bg={"Window"}
       zIndex={1000}
     >
-      <Box>logo</Box>
+      <Box>
+        <Image src="/images/khaledLogo.png" height={"50px"} width={"50px"} objectFit={"cover"} />
+      </Box>
       <Flex
         gap={[4, 6, 12]}
         flexWrap={"wrap"}
