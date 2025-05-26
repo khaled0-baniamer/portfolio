@@ -6,7 +6,6 @@ import {
   Experince,
   HomeScreen,
   ProjectsScreen,
-  ServicesScreen,
   Skills,
 } from "./screens";
 

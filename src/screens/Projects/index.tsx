@@ -6,7 +6,6 @@ import {
   SimpleGrid,
   Image,
   Text,
-  Tag,
   Button,
   HStack,
   VStack,
