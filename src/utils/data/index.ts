@@ -1,78 +1,3 @@
-export const projects = [
-  {
-    title: "Portfolio",
-    description:
-      "A personal portfolio website built with React, TypeScript, and Chakra UI.",
-    image: "/images/portfolio.png", 
-    technologies: ["React", "TypeScript", "Chakra UI"],
-    codeLink: "https://github.com/yourusername/portfolio",
-    liveDemo: "https://yourdomain.com",
-  },
-  {
-    title: "Movies",
-    description:
-      "A movie browser app using React Query, Redux Toolkit, and Tailwind CSS.",
-    image: "/images/movies.png",
-    technologies: [
-      "React",
-      "TypeScript",
-      "React Query",
-      "Tailwind CSS",
-      "Redux Toolkit",
-    ],
-    codeLink: "https://github.com/yourusername/movies-app",
-    liveDemo: "https://movies.yourdomain.com",
-  },
-  {
-    title: "Real Estate",
-    description:
-      "A real estate platform built with Next.js, NestJS, Sequelize, and MySQL.",
-    image: "/images/realestate.png",
-    technologies: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Redux Toolkit",
-      "NestJS",
-      "MySQL",
-      "Sequelize",
-    ],
-    codeLink: "https://github.com/yourusername/realestate-app",
-    liveDemo: "https://realestate.yourdomain.com",
-  },
-];
-
-export const professionalSkills = [
-  "Problem Solving",
-  "Communication",
-  "Teamwork",
-  "Time Management",
-  "Adaptability",
-  "Creativity",
-];
-
-export const technicalSkills = [
-  "HTML/CSS",
-  "JavaScript",
-  "React",
-  "TypeScript",
-  "Node.js",
-  "Express.js",
-  "NestJS",
-  "MySQL",
-];
-
-export const education = [
-  {
-    degree: "Bachelor of Industrial Engineering",
-    institution: "Al Yarmouk University",
-    year: "Sep 2012 - Jan 2018",
-    description:
-      "Strong focus on software architecture and development methodologies.",
-    achievements: ["Scholarship Recipient", "Programming Club President"],
-  },
-];
-
 export const experiences = [
   {
     position: "Mid Frontend Developer",
@@ -113,9 +38,20 @@ export const experiences = [
     ],
   },
   {
+    position: "Web Development Intern",
+    company: "Al-Reha",
+    year: "Oct 2021 - Sep 2022",
+    description: [
+      "Gained practical experience with Node.js and Express for backend development, building RESTful APIs and server-side applications.",
+      "Developed frontend interfaces using React.js with TypeScript, implementing responsive designs.",
+      "Worked with MySQL databases for data storage and retrieval, understanding database design principles.",
+    ],
+    technologies: ["Node.js", "Express", "React", "TypeScript", "MySQL"],
+  },
+  {
     position: "Full Stack Developer Trainee",
     company: "Coding Academy by Orange",
-    year: "Feb 2022 – Sep 2022",
+    year: "Apr 2021 – Oct 2021",
     description: [
       "Gained in-depth knowledge with modern frontend technologies including HTML,CSS,JavaScript,React.js, and TypeScript, building interactive and responsive user interfaces.",
       "Learned to build robust backend systems using PHP and Laravel, covering topics such as RESTful API development, server-side scripting, and middleware integration.",
@@ -133,3 +69,82 @@ export const experiences = [
     ],
   },
 ];
+
+export const projects = [
+  {
+    title: "Portfolio",
+    description:
+      "A personal portfolio website built with React, TypeScript, and Chakra UI.",
+    image: "/images/portfolio.png",
+    technologies: ["React", "TypeScript", "Chakra UI"],
+    codeLink: "https://github.com/yourusername/portfolio",
+    liveDemo: "https://yourdomain.com",
+  },
+  {
+    title: "Movies",
+    description:
+      "A movie browser app using React Query, Redux Toolkit, and Tailwind CSS.",
+    image: "/images/movies.png",
+    technologies: [
+      "React",
+      "TypeScript",
+      "React Query",
+      "Tailwind CSS",
+      "Redux Toolkit",
+    ],
+    codeLink: "https://github.com/yourusername/movies-app",
+    liveDemo: "https://movies.yourdomain.com",
+  },
+  {
+    title: "Real Estate",
+    description:
+      "A real estate platform built with Next.js, NestJS, Sequelize, and MySQL.",
+    image: "/images/realestate.png",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "NestJS",
+      "MySQL",
+      "Sequelize",
+    ],
+    codeLink: "https://github.com/yourusername/realestate-app",
+    liveDemo: "https://realestate.yourdomain.com",
+  },
+];
+
+
+export const technicalSkills = [
+  "HTML/CSS",
+  "JavaScript",
+  "React",
+  "TypeScript",
+  "Node.js",
+  "Express.js",
+  "NestJS",
+  "MySQL",
+];
+
+export const professionalSkills = [
+  "Problem Solving",
+  "Communication",
+  "Teamwork",
+  "Time Management",
+  "Adaptability",
+  "Creativity",
+];
+
+
+export const education = [
+  {
+    degree: "Bachelor of Industrial Engineering",
+    institution: "Al Yarmouk University",
+    year: "Sep 2012 - Jan 2018",
+    description:
+      "Strong focus on software architecture and development methodologies.",
+    achievements: ["Scholarship Recipient", "Programming Club President"],
+  },
+];
+
+
