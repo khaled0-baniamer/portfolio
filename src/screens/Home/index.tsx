@@ -30,7 +30,7 @@ const HomScreen: React.FC<Props> = ({}) => {
           Full Stack Developer
         </Text>
         <Text fontSize={"14px"} align={"start"} w={"full"}>
-          Node , React , Next , Express , nest , Typescript , MySql and MongoDB
+          Node , React , Next , Express , Nest , Typescript , MySql and MongoDB
         </Text>
 
         <Flex w={"full"} gap={2} mt={8}>
