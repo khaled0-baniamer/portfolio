@@ -75,16 +75,16 @@ export const projects = [
     title: "Portfolio",
     description:
       "A personal portfolio website built with React, TypeScript, and Chakra UI.",
-    image: "/images/portfolio.png",
+    image: "/images/portfolio.svg",
     technologies: ["React", "TypeScript", "Chakra UI"],
-    codeLink: "https://github.com/yourusername/portfolio",
-    liveDemo: "https://yourdomain.com",
+    codeLink: "https://github.com/khaled0-baniamer/portfolio",
+    liveDemo: "/",
   },
   {
     title: "Movies",
     description:
       "A movie browser app using React Query, Redux Toolkit, and Tailwind CSS.",
-    image: "/images/movies.png",
+    image: "/images/movies.svg",
     technologies: [
       "React",
       "TypeScript",
@@ -92,14 +92,14 @@ export const projects = [
       "Tailwind CSS",
       "Redux Toolkit",
     ],
-    codeLink: "https://github.com/yourusername/movies-app",
-    liveDemo: "https://movies.yourdomain.com",
+    codeLink: "https://github.com/khaled0-baniamer/Movies",
+    liveDemo: "/movies",
   },
   {
     title: "Real Estate",
     description:
       "A real estate platform built with Next.js, NestJS, Sequelize, and MySQL.",
-    image: "/images/realestate.png",
+    image: "/images/realestate.svg",
     technologies: [
       "Next.js",
       "TypeScript",
@@ -109,8 +109,8 @@ export const projects = [
       "MySQL",
       "Sequelize",
     ],
-    codeLink: "https://github.com/yourusername/realestate-app",
-    liveDemo: "https://realestate.yourdomain.com",
+    codeLink: "https://github.com/khaled0-baniamer/realestate-fe",
+    liveDemo: "/realestate",
   },
 ];
 

@@ -22,7 +22,7 @@ const Header: React.FC<Props> = (props) => {
       zIndex={1000}
     >
       <Box>
-        <Image src="/images/khaledLogo.png" height={"50px"} width={"50px"} objectFit={"cover"} />
+        <Image src="/images/0.png" height={"50px"} width={"50px"} objectFit={"cover"} />
       </Box>
       <Flex
         gap={[4, 6, 12]}

@@ -33,9 +33,10 @@ const ProjectsScreen: React.FC = () => {
             minH={{ base: "480px", md: "380px" }}
           >
             <Image
+              p={2}
               src={project.image}
               alt={project.title}
-              objectFit="cover"
+              objectFit="contain"
               w="full"
               h="180px"
             />
@@ -44,7 +45,7 @@ const ProjectsScreen: React.FC = () => {
                 <Heading size="md">{project.title}</Heading>
                 <Text fontSize="sm">{project.description}</Text>
 
-                <TechTag data={project.technologies}  />
+                <TechTag data={project.technologies} />
 
                 <Spacer />
               </VStack>
