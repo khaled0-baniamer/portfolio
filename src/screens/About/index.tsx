@@ -13,7 +13,7 @@ const AboutScreen: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <Box px={{  md: 10 }} py={10}>
+    <Box px={{  md: 10 }} py={10} id="about">
       <Heading
         mb={10}
         textAlign="center"

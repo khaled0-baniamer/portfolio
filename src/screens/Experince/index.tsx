@@ -4,7 +4,7 @@ import { Box, Heading, Text, VStack, HStack, Flex, Badge, Tag } from "@chakra-ui
 
 const Experience: React.FC = () => {
   return (
-    <Box>
+    <Box id="experience" >
       <Heading my={10} w="full" textAlign="center" textDecoration="underline">
         Experience
       </Heading>

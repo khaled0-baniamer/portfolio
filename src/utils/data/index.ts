@@ -37,21 +37,21 @@ export const experiences = [
       "Tailwind Css",
     ],
   },
-  {
-    position: "Web Development Intern",
-    company: "Al-Reha",
-    year: "Oct 2021 - Sep 2022",
-    description: [
-      "Gained practical experience with Node.js and Express for backend development, building RESTful APIs and server-side applications.",
-      "Developed frontend interfaces using React.js with TypeScript, implementing responsive designs.",
-      "Worked with MySQL databases for data storage and retrieval, understanding database design principles.",
-    ],
-    technologies: ["Node.js", "Express", "React", "TypeScript", "MySQL"],
-  },
+  // {
+  //   position: "Web Development Intern",
+  //   company: "Al-Reha",
+  //   year: "Oct 2021 - Sep 2022",
+  //   description: [
+  //     "Gained practical experience with Node.js and Express for backend development, building RESTful APIs and server-side applications.",
+  //     "Developed frontend interfaces using React.js with TypeScript, implementing responsive designs.",
+  //     "Worked with MySQL databases for data storage and retrieval, understanding database design principles.",
+  //   ],
+  //   technologies: ["Node.js", "Express", "React", "TypeScript", "MySQL"],
+  // },
   {
     position: "Full Stack Developer Trainee",
     company: "Coding Academy by Orange",
-    year: "Apr 2021 – Oct 2021",
+    year: "Feb 2022 – Sep 2022",
     description: [
       "Gained in-depth knowledge with modern frontend technologies including HTML,CSS,JavaScript,React.js, and TypeScript, building interactive and responsive user interfaces.",
       "Learned to build robust backend systems using PHP and Laravel, covering topics such as RESTful API development, server-side scripting, and middleware integration.",
@@ -122,8 +122,14 @@ export const technicalSkills = [
   "TypeScript",
   "Node.js",
   "Express.js",
+  "Docker",
   "NestJS",
   "MySQL",
+  "MongoDB",
+  "Redux Toolkit",
+  "React Query",
+  "Chakra UI",
+  "Tailwind CSS",
 ];
 
 export const professionalSkills = [

@@ -14,7 +14,7 @@ export default function App() {
     <Box>
       <HomeScreen />
       <Divider />
-      <AboutScreen />
+      <AboutScreen  />
       <Divider />
       <Experince />
       <Divider />

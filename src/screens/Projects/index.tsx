@@ -15,7 +15,7 @@ import {
 
 const ProjectsScreen: React.FC = () => {
   return (
-    <Box py={10}>
+    <Box py={10} id="projects">
       <Heading my={10} w="full" textAlign="center" textDecoration="underline">
         Projects
       </Heading>

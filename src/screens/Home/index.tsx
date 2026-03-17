@@ -7,6 +7,7 @@ const HomScreen: React.FC<Props> = ({}) => {
     <Flex
       flexDirection={["column-reverse", "column-reverse", "row"]}
       minH={"400px"}
+      id="home"
     >
       <VStack
         alignItems={"center"}

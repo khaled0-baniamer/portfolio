@@ -4,10 +4,10 @@ type DownloadCVButtonProps = ButtonProps;
 
 export default function DownloadCVButton(props: DownloadCVButtonProps) {
   const handleDownload = () => {
-    const fileUrl = "/KhaledBaniAmerCV.pdf";
+    const fileUrl = "/khaledBaniAmerCV.pdf";
     const link = document.createElement("a");
     link.href = fileUrl;
-    link.download = "KhaledBaniAmerCV.pdf";
+    link.download = "khaledBaniAmerCV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

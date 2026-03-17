@@ -3,7 +3,7 @@ import { Box, Heading, VStack, Text, Flex, Tag } from "@chakra-ui/react";
 
 const Education: React.FC = () => {
   return (
-    <Box>
+    <Box id="education">
       <Heading my={10} w="full" textAlign="center" textDecoration="underline">
         Education
       </Heading>

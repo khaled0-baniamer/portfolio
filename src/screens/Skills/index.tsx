@@ -4,7 +4,7 @@ import { Box, Heading, HStack, Tag, SimpleGrid } from "@chakra-ui/react";
 
 const SkillsSection: React.FC = () => {
   return (
-    <Box py={10}>
+    <Box py={10} id="skills">
       <Heading my={10} w="full" textAlign="center" textDecoration="underline">
         Skills
       </Heading>

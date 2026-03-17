@@ -7,7 +7,7 @@ import ContactForm from "./ContactForm";
 type Props = {};
 const ContactUsScreen: React.FC<Props> = () => {
   return (
-    <VStack spacing={[4, 6, 10]} align="stretch">
+    <VStack spacing={[4, 6, 10]} align="stretch" id="contact">
       <Heading my={10} w="full" textAlign="center" textDecoration="underline">
         Contact
       </Heading>
