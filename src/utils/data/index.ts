@@ -1,14 +1,17 @@
 export const experiences = [
   {
-    position: "Mid Frontend Developer",
+    position: "Full Stack Developer",
     company: "Deed",
     year: "Oct-2024 - Present",
     description: [
-      "Developing scalable web applications using Next.js with TypeScript, implementing responsive and accessible UI components with Chakra UI.",
-      "handling and validation workflows using React Hook Form and Zod, ensuring type-safe data handling and user-friendly error messaging.",
-      "Managing complex state effectively with Redux Toolkit.",
+      "Developed and maintained scalable, secure full-stack web applications using Node.js, TypeScript, React, and Next.js, following best practices for performance and code quality.",
+      "Designed and implemented responsive user interfaces and administrative dashboards to manage users, data, and system workflows efficiently.",
+      "Built and integrated APIs, authentication, and authorization mechanisms to ensure secure data access and reliable application behavior.",
     ],
     technologies: [
+      "Node.js",
+      "MySql",
+      "Express",
       "NextJs",
       "TypeScript",
       "Redux Toolkit",
