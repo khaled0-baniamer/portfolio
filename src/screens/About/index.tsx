@@ -49,10 +49,6 @@ const AboutScreen: React.FC = () => {
 
         <VStack w="full" align="start" spacing={3}>
           <Flex gap={2}>
-            <Text fontWeight="bold">Address:</Text>
-            <Text>Amman, Jordan</Text>
-          </Flex>
-          <Flex gap={2}>
             <Text fontWeight="bold">Phone:</Text>
             <Text>+962 792935420</Text>
           </Flex>
